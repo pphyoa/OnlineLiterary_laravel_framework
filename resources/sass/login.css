@@ -1,0 +1,103 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.loginform {
+  width: 420px;
+  height: 550px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.438), 0 6px 20px 0 rgba(24, 23, 23, 0.411);
+  background-image: linear-gradient(to bottom, rgba(101, 159, 224, 0.616), rgba(238, 132, 197, 0.295));
+}
+.loginform form {
+  width: 300px;
+}
+.loginform form h1 {
+  font-size: 25px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.loginform form .input-group {
+  margin-bottom: 20px;
+}
+.loginform form .input-group input {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ff;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(15, 0, 0);
+}
+.loginform form .input-group .eye {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #f0f2f3;
+}
+.loginform form .input-group .eye #click1 {
+  display: none;
+}
+.loginform form .input-group .btn {
+  border: none;
+  width: 100px;
+  margin: 30px auto 0px;
+  color: #f0f2f3;
+  background: #000;
+  box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.74), 0 6px 20px 0 rgba(19, 18, 18, 0.726);
+}/*# sourceMappingURL=login.css.map */

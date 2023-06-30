@@ -1,0 +1,147 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+
+/* body {
+  line-height: 1;
+} */
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  background-image: linear-gradient(to top, rgba(11, 0, 24, 0.781), rgb(4, 16, 36));
+  /* background-image: url("../img/dark.jpg"); */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.Register {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  padding:0 10px;
+}
+.Register form {
+  background: linear-gradient(to bottom, rgba(26, 8, 68, 0.5), rgb(34, 10, 39));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  position: absolute;
+  max-width: 500px;
+  border: 1px solid #161515;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+/* @media screen and (max-width: 768px) {
+  .Register form {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .Register form {
+    max-width: 200px;
+  }
+} */
+.Register form span {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 1px solid #2d2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Register form span img {
+  width: 100px;
+  height: 100px;
+  opacity: 0.8;
+}
+.Register form h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Register form input {
+  width: 100%;
+  margin-top: 20px;
+  /* font-style: italic; */
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(15, 0, 0);
+}
+.Register form .input-group .eye {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #f0f2f3;
+}
+.Register form .input-group .eye #click1 {
+  display: none;
+}
+.Register form .input-group .btn{
+  border: none;
+  width: 100px;
+  margin: 20px auto;
+  color: #f0f2f3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  background: linear-gradient(to right, #4c0ec9, #9c0da1);
+}
+
+.Register form p {
+  text-align: center;
+}
+.Register form p a {
+  color: #c8ccce;
+} 
